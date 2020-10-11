@@ -1,0 +1,75 @@
+<paste log output from Docker prediction, here> * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 189-122-517
+[2020-10-10 11:58:12,804] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-10-10 11:58:12,848] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 11:58:12,862] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+172.17.0.1 - - [10/Oct/2020 11:58:12] "POST /predict HTTP/1.1" 200 -
+[2020-10-10 11:58:59,254] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-10-10 11:58:59,265] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 11:58:59,276] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+172.17.0.1 - - [10/Oct/2020 11:58:59] "POST /predict HTTP/1.1" 200 -
+[2020-10-10 11:59:03,010] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-10-10 11:59:03,057] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 11:59:03,103] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+172.17.0.1 - - [10/Oct/2020 11:59:03] "POST /predict HTTP/1.1" 200 -
+-----------------------------------------------------------------------------------------------------------------------------------
+Logs Enabled
+
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 12:16:24,499] INFO in app: Prediction Log Output: 
+[20.35373177134412]
+172.17.0.1 - - [10/Oct/2020 12:16:24] "POST /predict HTTP/1.1" 200 -
+[2020-10-10 12:16:27,582] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-10-10 12:16:27,634] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 12:16:27,673] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 12:16:27,691] INFO in app: Prediction Log Output: 
+[20.35373177134412]
+172.17.0.1 - - [10/Oct/2020 12:16:27] "POST /predict HTTP/1.1" 200 -
+[2020-10-10 12:16:29,749] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-10-10 12:16:29,764] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 12:16:29,775] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 12:16:29,780] INFO in app: Prediction Log Output: 
+[20.35373177134412]
+172.17.0.1 - - [10/Oct/2020 12:16:29] "POST /predict HTTP/1.1" 200 -
+[2020-10-10 12:16:31,942] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-10-10 12:16:31,984] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 12:16:32,035] INFO in app: Scaling Payload: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-10 12:16:32,049] INFO in app: Prediction Log Output: 
+[20.35373177134412]
+172.17.0.1 - - [10/Oct/2020 12:16:32] "POST /predict HTTP/1.1" 200 -

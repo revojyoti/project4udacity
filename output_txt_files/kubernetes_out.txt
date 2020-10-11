@@ -1,0 +1,14 @@
+<(.devops) ubuntu:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ kubectl get pod
+NAME           READY   STATUS             RESTARTS   AGE
+project4       0/1     ImagePullBackOff   0          5m51s
+project4kube   1/1     Running            0          2m13s
+(.devops) ubuntu:~/environment/DevOps_Microservices/project-ml-microservice-kubernetes (master) $ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "project4kube" already exists
+NAME           READY   STATUS             RESTARTS   AGE
+project4       0/1     ImagePullBackOff   0          6m1s
+project4kube   1/1     Running            0          2m23s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000
+Handling connection for 8000
