@@ -39,3 +39,6 @@ Operationalise a Machine learning Microservice using KUbernetes / Dockers
 * Run via kubectl
 * Make Predictions & capture logs
 * delete KUbernetes Cluster
+
+
+[![CircleCI](https://circleci.com/gh/revojyoti/project4udacity.svg?style=svg)](https://app.circleci.com/pipelines/github/revojyoti/project4udacity)
